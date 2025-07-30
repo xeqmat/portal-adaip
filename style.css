@@ -226,7 +226,7 @@ section p {
 /* Seção de transparência */
 .transparency-section {
   background-color: var(--color-primary);
-  color: var(--color-text-light);
+  color: #ffffff;
   text-align: center;
 }
 
