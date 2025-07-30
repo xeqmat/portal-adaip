@@ -67,10 +67,10 @@ img {
   text-transform: uppercase;
 }
 
-/* Tamanho da logo; ajuste conforme necessário */
+/* Tamanho da logo; mantém proporção */
 .logo {
-  width: 32px;
-  height: 32px;
+  height: 40px;   /* ajuste a altura conforme desejar */
+  width: auto;    /* largura proporcional à altura */
 }
 
 .menu ul {
