@@ -223,11 +223,9 @@ section p {
   line-height: 1.5;
 }
 
-/* Seção de transparência */
-.transparency-section {
-  background-color: var(--color-primary);
-  color: #ffffff;
-  text-align: center;
+/* Ajusta a cor do texto pequeno na seção de transparência */
+.transparency-section p {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .transparency-section h2,
