@@ -69,7 +69,7 @@ img {
 
 /* Tamanho da logo; mantém proporção */
 .logo {
-  height: 40px;   /* ajuste a altura conforme desejar */
+  height: 55px;   /* ajuste a altura conforme desejar */
   width: auto;    /* largura proporcional à altura */
 }
 
