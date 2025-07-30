@@ -123,6 +123,7 @@ img {
   font-size: 1.125rem;
   max-width: 700px;
   margin: 0 auto 2rem auto;
+  color: var(--color-text-light); /* define branco como cor do texto */
 }
 
 .hero-buttons {
