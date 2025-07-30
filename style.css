@@ -223,14 +223,14 @@ section p {
   line-height: 1.5;
 }
 
-/* Ajusta a cor do texto pequeno na seção de transparência */
-.transparency-section p {
-  color: rgba(255, 255, 255, 0.9);
+/* Título da seção de transparência */
+.transparency-section h2 {
+  color: var(--color-text-light);
 }
 
-.transparency-section h2,
+/* Legenda (parágrafo) da seção de transparência */
 .transparency-section p {
-  color: var(--color-text-light);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .transparency-section .btn {
