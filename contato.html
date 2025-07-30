@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato – ADAIP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-KdE0rtFvtimUo9sTGxC6c6vpRq22WzH5Qx/LN0xg/TPfMZL+0mMQrZtmYzUp7opL84nv1GYrY36mw4z5M8Y4gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-content">
+        <div class="brand">ADAIP</div>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="projeto-nadar.html">Projeto NADAR</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="transparencia.html">Transparência</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+        <a href="transparencia.html" class="info-btn">Acesso à Informação</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Contato</h1>
+        <p>
+          Fale conosco para obter mais informações sobre o projeto ou para saber
+          como apoiar nossas ações.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-content">
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário ou utilize os dados abaixo para nos contatar.</p>
+        <ul class="contact-list">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            Rua Radialista Cordovil Dantas, Bairro Deputado José Antonio
+            Liberato, Caruaru – PE, CEP: 55.027-540
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:danilo_nti@hotmail.com">danilo_nti@hotmail.com</a>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+5581996138920">(81) 99613-8920</a>
+          </li>
+        </ul>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-column logo-column">
+          <div class="footer-brand">ADAIP</div>
+          <p>
+            Associação de Desportos Aquáticos do Interior de Pernambuco,
+            promovendo inclusão social através do esporte aquático.
+          </p>
+        </div>
+        <div class="footer-column links-column">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="projeto-nadar.html">Projeto NADAR</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="transparencia.html">Transparência</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-column contact-column">
+          <h4>Contato</h4>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              Rua Radialista Cordovil Dantas, Bairro Deputado José Antonio
+              Liberato, Caruaru – PE, CEP: 55.027-540
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:danilo_nti@hotmail.com">danilo_nti@hotmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              <a href="tel:+5581996138920">(81) 99613-8920</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> ADAIP – Todos os direitos reservados</p>
+        <p>Em conformidade com a Lei 13.019/2014</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
